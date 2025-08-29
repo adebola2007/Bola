@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+
+}
+.head{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:black;
+    
+    width: 90%;
+    padding: 0px 20px;
+    border-radius: 0 0 20px 20px;
+}
+.head{
+    position: fixed;
+}
+.logo{
+   
+    width: 90px;
+    height: 80px;
+    object-fit: contain;
+}
+.mom{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.mom span{
+    font-weight: bolder;
+}
+
+.anch{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.banner_txt{
+    width: 50%;
+    /* background-color: greenyellow; */
+    line-height: 50px;
+    padding: 80px ;
+}
+.banner_img{
+    width: 50%;
+    
+}
+
+.img{
+    width: 90%;
+    background-position: center;
+    object-fit: cover;
+    border-radius: 20px;
+    justify-content:center;
+    margin:20px 0px;
+    display: block;
+    background-size: cover;
+ 
+
+    
+}
+/* .h2{
+    font-size: 100px;
+    padding: 20px 0;
+    text-align: center;
+} */
+/* .btn{ 
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    
+} */
+.banner_txt .or{
+    color: white;
+    display: block;
+    position: relative;
+    width: 56%;
+    text-align: center;
+    margin: 15px 15px;
+} 
+/* p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}  */
+/* .fit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+} */
+.banner_txt h2{
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+.banner_txt p{
+    font-size: 20px;
+    color: white;
+    padding-bottom: 49px;
+}
+.banner_txt button{
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 17px;
+    width: 56%;
+    cursor: pointer;
+    border-radius: 10px 10px;
+}
+.banner_txt{
+    width: 44%;
+    color: white;
+    padding-left: 80px;
+    padding-top: 35px;
+}
+
+
+/* <!-- ---- BANNER START HERE ---- --> */
+.fact{
+    display: flex;
+    align-items: center;
+    padding: 15px 100px;
+}
+.fact .note{
+    text-align: center;
+    font-size: 19px;
+    padding: 50px;
+}
+
+
+
+ 
+
+

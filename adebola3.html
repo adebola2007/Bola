@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <link rel="stylesheet" href="style4.css">
+    
+    <link rel="stylesheet" href="./icofont/icofont.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <style>
+        .circle{
+    width: 50px;
+    height: 50px;
+    border: 12px solid black;
+    border-radius: 100%;
+    border-top: 12px solid blue;
+    animation: spin 1s  linear infinite;
+}
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+    
+    
+}
+
+ body{
+    background-color: rgba(249, 23, 23, 0.431);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 50px;
+    height: 100vh;
+}
+@media (max-width:778px) {
+  body{
+    background-color: white;
+    justify-content: start;
+  }  
+
+
+}
+
+@media (max-width: 500px) {
+    body{
+        background-color: gold;
+    }
+}
+
+.icofont-dice{
+    font-size: 300px;
+   
+    background-color: blue ;
+}
+
+.bi-signal{
+    font-size: 100px;
+    color: rgb(234, 224, 224);
+}
+.L{
+    color: gold;
+    
+}
+.o2{
+    color: white;
+}
+.logo{
+    font-size: 40px;
+    text-shadow: 2px 4px 3px black;
+
+}
+.mok{
+    background-color: red ;
+}
+.mok:hover{
+    background-color: pink;
+    color: black;
+    font-size: 20px;
+    transition: 0.5s ease-in-out;
+}
+    </style>
+</head>
+<body class="container-fluid">
+
+
+ 
+    <div class="circle"></div>
+
+    <main >
+
+        <p class="logo"> <span class="L">L</span><span class="o2">o</span><span class="L">g</span><span class="o2">o</span></p>
+    </main><br><br><br><hr>
+
+    <p> maya <i class="icofont-notification-circle"></i></p>
+    <i class="icofont-dice"></i>
+    <i class="icofont-database-add"></i>
+
+    <p><i class="icofont-paypal"></i></p>
+
+    <p><i class="bi bi-signal"></i></p>
+    <i class="bi bi-sign-merge-left-fill"></i>
+
+
+       <p class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus, assumenda earum. Doloribus earum corrupti, iure in dolor quas repudiandae, porro voluptatibus cupiditate debitis dolorem maxime necessitatibus facilis veritatis a. Voluptas.</p>
+
+       <button class="btn  btn-success btn-2xl  mok">submit</button>
+    
+</body>
+</html>

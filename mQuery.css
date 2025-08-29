@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+.not{
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: plum;
+    color: black;
+    padding:10px 20px ;
+     box-shadow: 2px 3px 2px gold;
+     flex-wrap: wrap;
+}
+.logo h2{
+   font-size: 50px;
+   font-weight:bolder;
+   
+}
+.list{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    list-style: none;
+    font-size: 25px;
+   
+}
+.open{
+    height: 30px;
+    width: 30px;
+    background-color: green;
+    
+}
+.act{
+    display: none;
+    /* position: relative; */
+}
+
+.drop{
+    position: absolute;
+    height: 90vh;
+    top: 70px;
+    right: 0;
+    left: 0;
+    background-color: blue;
+   top: -1000px;
+    line-height: 40px;
+    font-size: 30px;
+
+    transition: 1s ease-in;
+}
+.drop li{
+    border-bottom: 2px solid white;
+    width: fit-content;
+    margin: auto;
+    list-style: none;
+
+}
+
+.act:focus-within .drop{
+   top: 70px;
+
+
+}
+    
+
+.hide{
+    background-color: transparent;
+    font-size: 30px;
+    border: 1px solid yellow;
+    padding: 8px;
+    display: none;
+}
+
+
+
+
+
+@media (max-width:666px) {
+    .not{
+        background-color: red;
+      
+    }
+
+    .list{
+        display: none;
+    }
+
+    .act{
+        display: block;
+    }
+    
+}
+
+@media (max-width:380px) {
+     .not{
+        background-color: black;
+        color: white;
+
+     }
+     .act{
+        display: none;
+
+     }
+     .list{
+        display: flex;
+     }
+}
+

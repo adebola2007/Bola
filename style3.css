@@ -1,0 +1,24 @@
+@keyframes left {
+    from{
+        transform: translateX(-300px);
+    }
+
+    to{
+        transform: translateX(0);
+    }
+}
+.Top1{
+
+    /* animation: left 1s ease-in infinite reverse; */
+    animation-name:left ;
+    animation-duration:1s ;
+    animation-timing-function:ease-in ;
+    animation-delay:0s ;
+    animation-iteration-count:infinite ;
+    animation-direction: reverse;
+    animation-fill-mode: none ;
+} 
+.Top1{
+    text-align: center;
+}
+
